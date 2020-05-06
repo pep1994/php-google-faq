@@ -68,10 +68,14 @@
       ],
     ];
 
-    foreach ($faqs as $faq) {
-      echo '<h2>' . $faq['domanda'] . '</h2>';
-      echo '<p>' . $faq['risposta'] . '</p>';
-    }
+    if (array_key_exists('faq', $_GET)) {
+
+      foreach ($faqs as $faq) {
+        echo '<h2>' . $faq['domanda'] . '</h2>';
+        echo '<p>' . $faq['risposta'] . '</p>';
+      }
+
+    } 
   
   ?>
 

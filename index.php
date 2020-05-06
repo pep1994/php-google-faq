@@ -4,6 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ Google</title>
+
+   <style>
+
+      body {
+        max-width: 900px;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      h2 {
+        text-align: justify;
+        font-size: 25px;
+      }  
+
+      p {
+        text-align: justify;
+        margin-bottom: 60px;
+      }
+        
+  </style>
+
 </head>
 <body>
 

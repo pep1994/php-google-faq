@@ -52,8 +52,8 @@
 
       <?php 
 
-        require_once __DIR__ . "/../src/partials-php/variables.php";
-        require_once __DIR__ . "/../src/partials-php/function.php";
+        require_once __DIR__ . "/partials-php/variables.php";
+        require_once __DIR__ . "/partials-php/function.php";
 
         if (array_key_exists("faq", $_GET)) {
 

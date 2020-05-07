@@ -15,6 +15,7 @@ mix
   .js('src/js/app.js', 'dist/js/')
   .sass('src/style/app.scss', 'dist/style/')
   .copy('src/index.php', 'dist/')
+  .copy('src/partials-php/', 'dist/partials-php')
   .options({
     processCssUrls: false
   });

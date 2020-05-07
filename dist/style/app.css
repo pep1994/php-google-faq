@@ -12,12 +12,10 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
-
 .container h2 {
   text-align: justify;
   font-size: 25px;
 }
-
 .container a {
   text-decoration: none;
 }
@@ -37,50 +35,40 @@ header {
   width: 100%;
   background-color: #fff;
 }
-
 header #logo {
   width: 70px;
 }
-
 header ul {
   list-style-type: none;
 }
-
 header a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.7);
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
 }
-
 header nav .nav-left ul {
   display: flex;
   padding: 0;
 }
-
 header nav .nav-left ul li {
   margin-right: 35px;
 }
-
 header nav a {
   padding-bottom: 10px;
   display: block;
 }
-
 header .privacy {
   font-size: 20px;
   margin-left: 10px;
 }
-
 header .logo {
   display: flex;
   align-items: center;
 }
-
 header .active {
   color: #1428E7;
   border-bottom: solid 3px #1428E7;
@@ -90,31 +78,24 @@ footer {
   background-color: #F5F5F5;
   padding: 15px 0;
 }
-
 footer .container {
   display: flex;
   justify-content: space-between;
 }
-
 footer ul {
   list-style: none;
   padding: 0;
 }
-
 footer ul.footer-left {
   display: flex;
 }
-
 footer .footer-left li {
   margin-right: 20px;
 }
-
 footer select {
   width: 150px;
 }
-
 footer a {
   color: rgba(0, 0, 0, 0.7);
   font-size: 12px;
 }
-

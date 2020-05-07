@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/js/app.js":
+/*!***********************!*\
+  !*** ./src/js/app.js ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -97,10 +97,10 @@ console.log('ciao');
 
 /***/ }),
 
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
+/***/ "./src/style/app.scss":
+/*!****************************!*\
+  !*** ./src/style/app.scss ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -109,14 +109,14 @@ console.log('ciao');
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/*!**************************************************!*\
+  !*** multi ./src/js/app.js ./src/style/app.scss ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/Pep/Desktop/Esercizi Boolean/php-google-faq/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Users/Pep/Desktop/Esercizi Boolean/php-google-faq/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/Pep/Desktop/Esercizi Boolean/php-google-faq/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/Pep/Desktop/Esercizi Boolean/php-google-faq/src/style/app.scss */"./src/style/app.scss");
 
 
 /***/ })

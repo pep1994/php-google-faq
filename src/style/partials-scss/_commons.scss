@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  paddin: 0;
+  box-sizing: border-box;
+}
+
+main {
+
+margin-top: 200px;
+
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  
+  h2 {
+    text-align: justify;
+    font-size: 25px;
+  }  
+  
+  a {
+    text-decoration: none;
+  } 
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 60px;
+  line-height: 25px;
+}
